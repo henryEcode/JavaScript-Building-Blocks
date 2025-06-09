@@ -20,10 +20,10 @@ fruits[1] = "Shawashop"
 
 console.log(fruits)
 
-let firstInitial = firstName.charAt()
-let secInitial = lastName.charAt()
+let firstInitial = firstName.charAt(2)
+let secInitial = lastName.charAt(2)
 
 console.log(firstInitial + secInitial)
-
+console.log(firstInitial.toUpperCase() + secInitial.toUpperCase())
 
 
