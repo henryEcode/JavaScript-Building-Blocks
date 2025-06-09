@@ -15,4 +15,4 @@ String Methods
 4. slice()
 5. length()
 
-Notes : strings are immutable meaning once declared, they can not be replaced
+Notes : strings are immutable meaning once declared, they can not be replaced.
