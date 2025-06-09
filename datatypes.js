@@ -26,4 +26,7 @@ let secInitial = lastName.charAt(2)
 console.log(firstInitial + secInitial)
 console.log(firstInitial.toUpperCase() + secInitial.toUpperCase())
 
+//console.log(result>10)
+console.log(typeof(result))
+
 

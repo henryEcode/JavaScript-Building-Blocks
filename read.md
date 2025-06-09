@@ -7,6 +7,8 @@ Undefined     Undefined
 Object        {name:"Alice"}
 Array         [1,2,3]
 
+to identify a datatype of the value of a variable, we use typeof keyword
+
 
 String Methods
 1. toUpperCase()
@@ -16,3 +18,7 @@ String Methods
 5. length()
 
 Notes : strings are immutable meaning once declared, they can not be replaced.
+
+
+ARRAYS IN JAVASCRIPT
+array is a collection of differnt values for a variables. we use the literal type Square Bracket [] to declare an array
