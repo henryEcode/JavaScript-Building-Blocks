@@ -1,4 +1,4 @@
-let students =["Olawole", "Ugochi","Cornelius"];
+let students =["Olawole", "Ugochi","Cornelius",['apple', "Banana",'orange']];
 let student1 = students[0];
 students.push('Henry')
 console.log(student1)
