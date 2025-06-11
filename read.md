@@ -21,4 +21,4 @@ Notes : strings are immutable meaning once declared, they can not be replaced.
 
 
 ARRAYS IN JAVASCRIPT
-array is a collection of differnt values for a variables. we use the literal type Square Bracket [] to declare an array
+array is a collection of differnt values for a variables, objects, or even arrays. we use the literal type Square Bracket [] to declare an array.
