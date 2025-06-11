@@ -24,7 +24,7 @@ Items can be deleted from object
 Operators in Javascript
 =     Assignment Operator
 ==    Equal to Operator
-===   Equal to a datatype
+===   Equal to a datatype for comparison
 +     Addition or Concatenation of strings
 -     Subtraction
 /     Division
