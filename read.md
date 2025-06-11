@@ -22,3 +22,7 @@ Notes : strings are immutable meaning once declared, they can not be replaced.
 
 ARRAYS IN JAVASCRIPT
 array is a collection of differnt values for a variables, objects, or even arrays. we use the literal type Square Bracket [] to declare an array.
+
+How to access items in an Array.
+
+Arrays just like string can be accessed using their index numbers. the first value of an array usually starts with the index of 0. the formular will be size of (array - 1)
