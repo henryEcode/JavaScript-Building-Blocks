@@ -1,0 +1,35 @@
+**********OBJECTS*******
+
+
+contents of an object appear in key value pairs enclosed in a curly bracket. Example. 
+let people = {
+    name:Henry,
+     age:20, 
+     School:IBT,
+     isAdult: true,
+}
+
+There are 2 ways to access values in an object
+1. The square bracket []; we use the [] after the keys to access items in an object. eg: access the name in the above illustration. people['name']. Note: always remember that keys are interpreted as strings.
+
+2. The dot notation "." we call keypairs in an object by applying period and the key of the objects.eg: access the age in the above illustration. people.age
+
+
+*** Unlike strings and arrays, Objects can not be accessed using the index of keys.
+
+Items can be deleted from object
+
+
+**********OPERATORS********
+Operators in Javascript
+=     Assignment Operator
+==    Equal to Operator
+===   Equal to a datatype
++     Addition or Concatenation of strings
+-     Subtraction
+/     Division
+*     Multiplication
+**    Exponential
+%     Modulus (Division Remainder)
+++    Increment
+--    Decrement
