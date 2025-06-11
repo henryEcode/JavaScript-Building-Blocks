@@ -26,3 +26,13 @@ array is a collection of differnt values for a variables, objects, or even array
 How to access items in an Array.
 
 Arrays just like string can be accessed using their index numbers. the first value of an array usually starts with the index of 0. the formular will be size of (array - 1)
+
+Ways to modify arrays
+
+Modifying and accessing an array is done with javascript methods.
+
+for instance, we can know the length of an array ny using the method using".length" by attaching to the suffix of the array. eg: let students = ['Jonas','Sophia','Florence']; let studentSize = students.length.
+
+Also, we can add items in an array by using the method ".push" by attaching ".push" to suffix of the variable eg  students.push = ['Henry']
+
+Last value can also be deleted from an array we use the method ".pop()".
