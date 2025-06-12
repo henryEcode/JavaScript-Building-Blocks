@@ -36,3 +36,5 @@ for instance, we can know the length of an array ny using the method using".leng
 Also, we can add items in an array by using the method ".push" by attaching ".push" to suffix of the variable eg  students.push = ['Henry']
 
 Last value can also be deleted from an array we use the method ".pop()".
+
+first value can also be deleted from an array we use the method ".shift()"
