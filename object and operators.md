@@ -33,3 +33,17 @@ Operators in Javascript
 %     Modulus (Division Remainder)
 ++    Increment
 --    Decrement
+
+
+Math Methods
+1. Math.round() helps to round up 
+2. Math.ceil() rounds up numbers
+3. Math.floor() rounds down numbers
+4. Math.trunc()---
+
+***************LOGICAL OPERATORS********
+the truthy and falsy value in an && Operator
+1. when an instruction involving a logical && statement is passed. it checks for the truthy and the falsy value in the instruction. if the first value is truthy, it will return the second value; if the second value is truthy it will return the first value.
+
+The truthy and falsy value in || operator
+1. when an instruction involving a logical || statement is passed. it checks for the truthy and the falsy value in the instruction. if the first value is truthy, it doesn't proceed to check the second statement, instead the first value is returned; likewise, if the first value is falsy, it returns ti goes a step further to verify the Bolean of the second argument. if truthy, it passes it. 
