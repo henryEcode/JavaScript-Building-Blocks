@@ -96,3 +96,5 @@ switch (color){
 
 
 }
+
+//Itirations with "for loop", where you would want an instruction to run for a parrticular number of time
