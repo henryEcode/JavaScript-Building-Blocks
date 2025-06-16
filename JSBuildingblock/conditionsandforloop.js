@@ -83,7 +83,7 @@ console.log("Total number of voters =", totalNumberofVoters.length )
 
 ///Case Statement
 
-let color = 'blue';
+let color = 'indigo';
 
 switch (color){
     case 'red':console.log('color is red')
@@ -98,3 +98,83 @@ switch (color){
 }
 
 //Itirations with "for loop", where you would want an instruction to run for a parrticular number of time
+
+// for(let i =0; i<=10; i++){
+//     console.log("I am running in a for loop", i)
+// }
+
+let myArr = [1,3,5,7,9,11,14]
+
+
+// for( z =0; z<myArr.length;z++){
+//     console.log("I am doing sums in for loop", z)
+//     sum = sum + myArr[z]
+// }
+let sum = 0
+
+// for(let y=0; y<myArr.length; y++){
+// sum = sum + myArr[y]
+// }
+// console.log(sum)
+
+
+for(let i = 0; i<=myArr.length; i++){
+let result = "the index of"  + myArr[i] +'is'+ i;
+    console.log(result)
+}
+
+console.log(myArr[0])
+
+//Use of (For in) and (for of)
+//(for in) returns the index in an array or keys in an object while (for of) returns the value in an array/object.
+
+for(let val of myArr){
+    console.log(val)
+}
+for(let index in myArr){
+    console.log(index)
+}
+
+///while loop
+ let counter = 0;
+
+// while (counter<10){
+   
+//     console.log("running", counter)
+//       counter ++
+   
+    
+// }
+
+//Break statement using if statement in whileloop
+
+// while (counter<10){
+// if (counter === 6){
+//  break
+// }
+//     console.log("running" , counter)
+//     counter ++
+// }
+
+//Continue statement using if statement in whileloop
+
+// while( counter <10){
+      
+
+//     if(counter === 6){
+//         counter++
+//         continue
+//     }
+
+//     console.log("printing", counter)
+//     counter++
+
+//}
+
+do{
+    if (counter === 6){
+        counter++
+        continue
+    }
+    console.log('printing', counter)
+} while(counter<0)
