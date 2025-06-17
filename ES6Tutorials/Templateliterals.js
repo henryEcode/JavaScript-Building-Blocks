@@ -26,9 +26,13 @@ let studentObj = {
     age:20,
     state: "Imo",
 }
-    let item = [67,78];
-   let [a,b] = item
-    console.log(b,a)
 
+//first destructuring
+//     let item = [67,78];
+//    let [a,b] = item
+//     console.log(b,a)
+
+
+//Second destructuring
     [item[0],item[1]] = [item[1],item[0]];
     console.log(item)
