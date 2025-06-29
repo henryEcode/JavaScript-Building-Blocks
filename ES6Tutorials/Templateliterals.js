@@ -24,13 +24,13 @@ console.log(rest)
 
 
 //first destructuring
-    let item = [67,78];
+  
 //    let [a,b] = item
 //     console.log(b,a)
 
 
 //Second destructuring
-    [item[0],item[1]] = [item[1],item[0]];
+ //   [item[0],item[1]] = [item[1],item[0]];
    // console.log(item)
 
     //1st Concatination of 2 arrays 
@@ -110,17 +110,57 @@ let show = `Hello ${origin}!! welcome to class \n You are from ${newname} state`
 
     //Higher order array methods
     //.map,forEach, reduce, find, filter
-//.map
+
+//.map : here the parameters are the strings, index and arrays
    let newSchool = schools.map((grown, i, u)=>{ return `${grown.toUpperCase()} is at position ${i+1} and ${u}`})
 
    //console.log(newSchool)
    //console.log(schools)
 
-   let townRestaurant = ["Chicken republic","Kilimanjaro","Chicken Capitol","Mr. Biggs","Blooming chicken"]
+   let townRestaurant = ["Chicken republic","Kilimanjaro","Chicken Capitol","Mr. Biggs","Blooming chicken", studentObj]
 
    let [restaurant1,restaurant2,restaurant3, ...others] = townRestaurant
 
    let Bukka = [...others]
 
-   console.log(restaurant1)
-   console.log(Bukka)
+
+let authBukka = townRestaurant.map((call, u)=>{
+
+    return `this restaurant name is ${call}\n and it is rated ${u+1+'st'}`
+
+
+})
+console.log(authBukka)
+
+   //console.log(restaurant1)
+   //console.log(Bukka)
+
+   function siblings(){
+let first ="Henry";
+let theSec = "Valerie";
+let theThird = "Charles";
+let theFourth = "Esther";
+
+let totalSib = `${first}, ${theSec}, ${theThird}, ${theFourth}`
+
+return totalSib
+   }
+
+   let add_sib = ()=>{
+    let first ="Henry";
+let theSec = "Valerie";
+let theThird = "Charles";
+let theFourth = "Esther";
+theFourth = "Ugonna";
+theSec = "Chioma";
+let totalSib = `${first}, ${theSec}, ${theThird}, ${theFourth}`
+ 
+return totalSib
+ }
+console.log(add_sib()) 
+//higer array method find
+
+  let item = [67,55,88,97,103];
+console.log(item.find((item)=>{return item / 5 === 11}))
+//higer array method filter
+console.log(townRestaurant.filter((townRestaurant)=>{ return townRestaurant.length>12}))
