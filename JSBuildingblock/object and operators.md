@@ -15,7 +15,7 @@ There are 2 ways to access values in an object
 2. The dot notation "." we call keypairs in an object by applying period and the key of the objects.eg: access the age in the above illustration. people.age
 
 
-*** Unlike strings and arrays, Objects can not be accessed using the index of keys.
+*** Unlike strings and arrays, Objects can not be accessed using the index numbers.
 
 Items can be deleted from object
 
