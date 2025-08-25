@@ -62,7 +62,10 @@ class person2 {
 
         return this.item
     }
-
+static publisher()
+{
+    return `I am the owner of the book`
+}
     
 }
 
@@ -77,30 +80,49 @@ console.log( Ugo.hello(),`My name is`,Ugo.name)
 //any function inside a class is a method
 // when using a constructor in a class, the keyword 'new'
 
-class admin{
-    // constructor(name, state){
-    //     this.name = name
-    //     this.state = state
-       
 
-    // }
 
-     hello(){
-        return 'hello'
-    }
+/*Inheritance*/
+//we use the keyword extend for inheritance
+//The parent class is a super class
+//The child class is a sub class
+class admin extends person2{
+   //If I want to enter a new parameter in a constructor of a child class which is not in the parent, we us the word keyword 'super(parameters in parent) for instance
+   constructor(name,state,isAdmin){
+    super(name,state)
+    this.isAdmin = isAdmin
 
-    // push(items){
-    //     this.item[this.index]= items
+   }
 
-    //     return this.item
-    // }
+#add(){
+    return 3+4
+}
+
+log(){
+    return ` I am good with, ${this.#add()}`
+}
 
     createuser(name, state){
         const user = new person2 (name, state)
         return user
     }
 }
-const Chioma = new admin()
+const Chioma = new admin( 'Buchi','Ohio')
 console.log(Chioma)
 console.log(Chioma.createuser('Chima',"Bauchi"))
-console.log(Chioma.hello())
+console.log(person2.publisher())
+
+const lucy = new admin('Chima','Gongola',true)
+console.log(lucy.isAdmin)
+
+//testing public and private method
+
+const pubMeth = new admin('Keneth','Jalingo', false)
+const priMeth = new admin('Keneth','Jalingo', false)
+
+console.log(priMeth.log())
+//console.log(pubMeth.add())
+//Afunction that is a member of a class is called a function.
+
+/****POLYMORPHISM****/
+//ite helps in performing methods overriding.
