@@ -43,19 +43,19 @@ return inner()
 
 //SECOND ASYNCRONIZATION method
 
-// async function main() {
-//     try{
-//         let response = await fetch("https://jsonplaceholder.typicode.com/users")
-// let data = await response.json()
-// console.log(data)
+async function main() {
+    try{
+        let response = await fetch("https://jsonplaceholder.typicode.com/users")
+let data = await response.json()
+console.log(data)
 
-//     }catch(error){
-//         console.log(error)
-//     }
+    }catch(error){
+        console.log(error)
+    }
     
-// }
+}
 
-// main()
+main()
 
 
 // Third asynchronization method
